@@ -11,7 +11,6 @@ function App() {
   const [cities, setCities] = useState([]);
 
   function onSearch(ciudad) {
-    
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`)
       .then(r => r.json())
       .then((recurso) => {
@@ -29,8 +28,19 @@ function App() {
             latitud: recurso.coord.lat,
             longitud: recurso.coord.lon
           };
-          setCities(oldCities => [...oldCities, ciudad]);
-        } else {
+          var aux = cities.filter(ci => ci.id !== ciudad.id);
+          if (cities.length !== aux.length)
+          {
+            alert("Ciudad ya agregada")
+          }
+          else
+          {
+            setCities(oldCities => [...oldCities, ciudad]);
+          }
+        }
+        
+        else 
+        {
           alert("Ciudad no encontrada");
         }
       });

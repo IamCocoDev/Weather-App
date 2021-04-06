@@ -12,7 +12,7 @@ function App() {
 
   function onSearch(ciudad) {
     
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`)
       .then(r => r.json())
       .then((recurso) => {
         if(recurso.main !== undefined){

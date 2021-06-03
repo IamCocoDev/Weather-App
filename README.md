@@ -15,6 +15,14 @@ Here is your answer, in this application you have a Navigation Bar inside this y
 - JavaScript to do the logic
 - FETCH to do the call to the API.
 
+#### If you want to try it?
+You need to clone this repository, enter inside the directory and start one console put
+`npm install`
+and the finishing step when the npm install finish, put on the console 
+`npm start`
+and wait for the google open and you can try this project.
+
+
 I hope you like it, thank you for your time. Attentively Federico Giovenco.
 
 📞 If you want to contact me. These are the channels.

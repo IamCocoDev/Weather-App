@@ -17,7 +17,7 @@ Here is your answer, in this application you have a Navigation Bar inside this y
 
 I hope you like it, thank you for your time. Attentively Federico Giovenco.
 
-:tw-1f4de: If you want to contact me. These are the channels.
+📞 If you want to contact me. These are the channels.
 
 <a href="https://www.linkedin.com/in/federico-giovenco-96929320b/" ><img width="5%" src="https://image.flaticon.com/icons/png/512/174/174857.png"> &nbsp;<a href="mailto:giovencofede@gmail.com" ><img width="5%" src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png"><a href="https://twitter.com/cocofexe" ><img width="5%" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"><a href="https://www.instagram.com/fedegiovenco/" ><img width="5%" src="https://image.flaticon.com/icons/png/512/174/174855.png">
  
